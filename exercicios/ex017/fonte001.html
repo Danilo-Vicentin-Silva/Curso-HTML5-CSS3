@@ -1,0 +1,60 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>fontes em CSS</title>
+    <!----Anotações 'inline': Muitas fontes possuem algumas variações de negrito e light, que permite você a modificà-las à sua maneira, ou seja, muitas possibilidades com styles (como italic, bolders, underline e etc)
+    Por isso, é interressnate estudar as fontes que você irá usar em seu site-->
+    <style>
+        @import url('https://fonts.googleapis.com/css2?family=Work+Sans:ital@1&display=swap');
+
+        body {
+            font-family: 'Work Sans', arial, helvetica, sans-serif;
+            /* 
+        Medidas Absolutas
+        cm, mm, in, px, pt, pc
+
+        Medidas Relativas
+        em, ex, rem, vw, vh, %
+        geralmente 16px = 1em
+        */
+            font-size: 1em;
+            font-weight: lighter;
+            /*weight width height são DIFERENTES */
+            /*light, normal, bold, bolder*/
+            font-style: italic;
+        }
+
+        h1 {
+            font-family: 'Work Sans', sans-serif;
+            font-weight: bolder;
+            font-size: 3em;
+            font-style: italic; 
+            /*ou*/
+            /*shorthand font*/
+            /* font-style --> font wight --> font-size --> font-family*/
+            font: italic bolder 3em, 'Work Sans', sans-serif;
+        }
+        h2 {
+            font: bold 2em 'Work Sans'
+        }
+    </style>
+</head>
+
+<body>
+    <h1>Trabalhando com fontes</h1>
+    <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Laudantium eius minus praesentium tenetur optio
+        quibusdam veniam temporibus sint est earum repellendus aspernatur quia, impedit fugit a eos ipsam corrupti id.
+        Lorem ipsum dolor sit amet consectetur adipisicing elit. Ad, autem? Voluptatibus, sit assumenda beatae expedita
+        dolorum minima, voluptatum est minus a similique perspiciatis nostrum natus ducimus praesentium accusamus sequi
+        ratione?</p>
+    <h2>Sutítulo do exercício</h2>
+    <p>Lorem ipsum dolor, sit amet consectetur adipisicing elit. Vero voluptates ea ex qui minima saepe cupiditate?
+        Nesciunt est aut nam, labore quos, qui iste corporis perspiciatis enim maiores ratione! Ducimus?lorem</p>
+
+</body>
+
+</html>

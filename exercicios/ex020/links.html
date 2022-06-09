@@ -1,0 +1,61 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Personalizando Links</title>
+    <style>
+        body {
+            font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+            display: inline-block;
+        }
+
+        a {
+            color: red;
+            text-decoration: none;
+            font-weight: bolder;
+        }
+
+        a:visited {
+            color: darkgoldenrod;
+        }
+
+        a:hover {
+            color: black;
+            text-decoration: underline;
+        }
+
+        a:active {
+            color: gold;
+        }
+
+        a::before {
+            content: '=>';
+        }
+        a::after {
+            content: '<=';
+            text-decoration: none;
+            font-weight: normal;
+            color: darkcyan;
+        }
+    </style>
+</head>
+
+<body>
+    <h1>Personalizando Links</h1>
+    <ul>
+        <li><a target="_blank" href="https://google.com">
+                <p>google</p>
+            </a></li>
+        <li><a target="_blank" href="https://youtube.com">
+                <p>Youtube</p>
+            </a></li>
+        <li><a target="_blank" href="https://meta.com">
+                <p>Meta</p>
+            </a></li>
+    </ul>
+</body>
+
+</html>

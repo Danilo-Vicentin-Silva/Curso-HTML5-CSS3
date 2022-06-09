@@ -1,0 +1,43 @@
+@charset "UTF-8";
+
+/*em HTML é id == CSS é #*/
+/*em HTML é class == CSS é .*/
+/* 
+    Paleta de cores
+    #0367A6
+    #023859
+    #011826
+    #05DBF2
+    #0FF2F2
+*/
+body {
+    background-color: rgb(255, 255, 255);
+    font-family: Arial, Helvetica, sans-serif;
+}
+
+h1 {
+    color: #023859;
+}
+
+#principal {
+    text-align: center;
+    background-color: #023859;
+    color: #0FF2F2;
+}
+
+h2 {
+    color: #0367A6;
+}
+
+.basico {
+    color: #05DBF2;
+}
+.intermediario {
+    color: #0367A6;
+}
+.avançado {
+    color: #011826;
+}
+.destaque {
+    background-color: yellow;
+}
