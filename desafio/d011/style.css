@@ -1,0 +1,16 @@
+* {
+    overflow: hidden;
+}
+
+
+body {
+    background: black url('imagens/espaco.jpg') center center no-repeat fixed;
+    background-size: cover;
+}
+
+#astronner {
+    background: url('imagens/astronauta.png') center center no-repeat fixed;
+    background-size: 200px;
+
+    height: 500px;
+}
