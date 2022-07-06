@@ -1,0 +1,68 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Tabelas</title>
+    <style>
+        body {
+            font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+        }
+        table {
+            width: 400px;
+            border-collapse: collapse;
+            border: 2.5px solid rgb(30, 30, 30);
+        }
+        .linha {
+            background-color: gray;
+        }
+        td {
+            border: 1px solid black;
+            padding: 5px;
+        }
+        .linha2 {
+            background-color: rgb(91, 91, 91);
+        }
+        #vazia {
+            background-color: black;
+        }
+    </style>
+</head>
+
+<body>
+    <h1>Minha primeira tabela</h1>
+    <!---Hieraquia de tabelas simples--->
+    <!---
+        Table = tabela
+            Table header = cabeçalho de tabela
+                table data = dado de tabela
+    -->
+    <table>
+        <tr class="linha2">
+            <!---Primeira linha-->
+            <td>A1</td>
+            <td>B1</td>
+            <td>C1</td>
+        </tr>
+        <tr class="linha">
+            <td>A2</td>
+            <td>B2</td>
+            <td>C2</td>
+        </tr>
+        <tr class="linha2">
+            <td>A3</td>
+            <td>B3</td>
+            <td>C3</td>
+        </tr>
+        <tr class="linha">
+            <td>A4</td>
+            <td>B4</td>
+            <td id="vazia"></td>
+        </tr>
+    </table>
+    <!---O fechamento das tags não são obrigratórias-->
+</body>
+
+</html>

@@ -1,0 +1,107 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Tabelas</title>
+    <Style>
+        body {
+            font-family: Verdana, Geneva, Tahoma, sans-serif;
+        }
+
+        table {
+            text-align: center;
+            width: 500px;
+            border-collapse: collapse;
+        }
+
+        caption {
+            font-size: 1.5em;
+            font-weight: bold;
+            background-color: lightgray;
+            padding: 10px;
+        }
+
+        td,
+        th {
+            border: 1px solid black;
+            padding: 10px;
+        }
+
+        thead,
+        tfoot {
+            color: white;
+            background-color: gray;
+        }
+
+        tbody>tr:nth-child(odd) {
+            /*odd é par*/
+            background-color: lightgray;
+        }
+    </Style>
+</head>
+
+<body>
+    <h1>Uso de tabelas grandes</h1>
+    <!---anatomia para tabelas grandes-->
+    <!---
+    table
+        caption
+        thead
+            tr // td // th
+        tbody
+            tr // td // th
+        tfoot
+            tr // td // th
+    -->
+    <table>
+        <caption>
+            População das unidades federativas (numeros fictícios)
+        </caption>
+        <thead>
+            <tr>
+                <th scope="col">Estado</th>
+                <th scope="col">População</th>
+            </tr>
+        </thead>
+        <tbody>
+            <tr>
+                <td>São Paulo</td>
+                <td>45 919 049</td>
+            </tr>
+            <tr>
+                <td>Minas Gerais</td>
+                <td>21 158 152</td>
+            </tr>
+            <tr>
+                <td>Rio de Janeiro</td>
+                <td>48 457 451</td>
+            </tr>
+            <tr>
+                <td>Alagoas</td>
+                <td>40 007 675</td>
+            </tr>
+            <tr>
+                <td>Acre</td>
+                <td>00 000 001</td>
+            </tr>
+            <tr>
+                <td>Maranhão</td>
+                <td>32 323 545</td>
+            </tr>
+            <tr>
+                <td>Pará</td>
+                <td>21 123 432</td>
+            </tr>
+        </tbody>
+        <tfoot>
+            <th scope="row">Total de habitantes</th>
+            <th>350 000 000</th>
+        </tfoot>
+    </table>
+    <!----as tags podem ser digitadas em qualquer lugar, o navegador fará a organização semantica: thead>tbody>tfoot-->
+</body>
+
+</html>
