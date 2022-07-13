@@ -15,6 +15,7 @@
             text-align: center;
             width: 500px;
             border-collapse: collapse;
+            position: relative;
         }
 
         caption {
@@ -24,10 +25,20 @@
             padding: 10px;
         }
 
+        th {
+            position: sticky;
+            top: -1px;
+            background-color: rgb(122, 122, 122);
+        }
+
         td,
         th {
             border: 1px solid black;
             padding: 10px;
+        }
+
+        tr {
+            height: 100px;
         }
 
         thead,
@@ -58,7 +69,7 @@
     -->
     <table>
         <caption>
-            População das unidades federativas (numeros fictícios)
+            População das unidades federativas (números fictícios)
         </caption>
         <thead>
             <tr>
@@ -95,6 +106,42 @@
                 <td>Pará</td>
                 <td>21 123 432</td>
             </tr>
+            <tr>
+                <td>Piauí</td>
+                <td>251 295 65</td>
+            </tr>
+            <tr>
+                <td>Roraima</td>
+                <td>224 299 000</td>
+            </tr>
+            <tr>
+                <td>Santa Catarina</td>
+                <td>453 281 234</td>
+            </tr>
+            <tr>
+                <td>Sergipe</td>
+                <td>213 435 545</td>
+            </tr>
+            <tr>
+                <td></td>
+                <td></td>
+            </tr>
+            <tr>
+                <td></td>
+                <td></td>
+            </tr>
+            <tr>
+                <td></td>
+                <td></td>
+            </tr>
+            <tr>
+                <td></td>
+                <td></td>
+            </tr>
+            <tr>
+                <td></td>
+                <td></td>
+            </tr>
         </tbody>
         <tfoot>
             <th scope="row">Total de habitantes</th>
@@ -102,6 +149,8 @@
         </tfoot>
     </table>
     <!----as tags podem ser digitadas em qualquer lugar, o navegador fará a organização semantica: thead>tbody>tfoot-->
+    <p>OBS: Algumas linhas estão propositalmente preenchidas com espaços em branco</p>
+    <p style="height: 500px;">Lorem ipsum dolor sit amet consectetur adipisicing elit. Ut voluptatibus atque non debitis obcaecati officiis ad eum minima autem aut nostrum accusamus temporibus amet quo ab, nihil explicabo qui magnam. Lorem ipsum, dolor sit amet consectetur adipisicing elit. Ab amet sunt voluptatibus deleniti cumque magnam libero distinctio, alias harum maxime quaerat nam culpa velit quo veritatis. Voluptates ullam voluptatum odit? Lorem ipsum dolor sit amet consectetur adipisicing elit. Placeat voluptatibus repudiandae, nisi veniam nemo voluptates molestias ipsum tempora soluta. Quo nisi similique, autem architecto soluta debitis quia sapiente temporibus laborum. Lorem ipsum, dolor sit amet consectetur adipisicing elit. Blanditiis, facilis maxime soluta quae ullam consequatur! Sed, facere. Quos, ducimus necessitatibus vitae praesentium quas dicta tempora explicabo in autem id exercitationem. Lorem ipsum dolor sit amet consectetur adipisicing elit. Repellat exercitationem, doloribus delectus similique eveniet dolore necessitatibus id repellendus sapiente laborum? Vero sint sunt eius. Nihil accusamus soluta veniam officiis fugit!</p>
 </body>
 
 </html>
