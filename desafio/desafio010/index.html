@@ -1,0 +1,91 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Tabela de notas</title>
+    <style>
+        body {
+            font-family: monospace;
+            font-size: 3vh;
+            text-align: center;
+            background-color: rgb(80, 78, 78);
+            color: white;
+        }
+
+        table {
+            color: black;
+            background-color: rgb(164, 164, 164);
+            border-collapse: collapse;
+        }
+
+        th,
+        td,tr {
+            font-size: 1em;
+            padding: 10px;
+            border: 1px solid black;
+        }
+
+        footer {
+            text-align: center;
+            background-color: rgb(24, 23, 23);
+            padding: 10px;
+            margin-top: 70vh;
+            border-radius: 8px;
+        }
+
+        a {
+            text-decoration: none;
+        }
+    </style>
+</head>
+
+<body>
+
+    <header>
+        <h1>Tabela de Notas</h1>
+        <p></p>
+    </header>
+
+    <main>
+        <section>
+            <table>
+                <thead>
+                    <tr>
+                        <th scope="colgroup" rowspan="2">Área</th>
+                        <th scope="colgroup" rowspan="2">Disciplina</th>
+                        <th scope="colgroup" colspan="2">Notas</th>
+                        <th scope="colgroup" rowspan="2">Média</th>
+                    </tr>
+                </thead>
+                <tbody>
+                    <tr>
+                        <th scope="rowgroup" rowspan="4">Exatas</th>
+                        <td>Matemática</td>
+                        <th scope="colgroup">Nota 1</th>
+                        <th scope="colgroup">Nota 2</th>
+                        <td>0.0</td>
+                    </tr>
+                    <tr>
+                        <td>Física</td>
+                        <td>0.0</td>
+                        <td>0.0</td>
+                        <td>0.0</td>
+                    </tr>
+                </tbody>
+            </table>
+        </section>
+    </main>
+
+    <footer>
+        <p>
+            Site criado por <a rel="author" target="_blank" href="https://github.com/Danilo-Vicentin-Silva">Danilo
+                Vicentin.S</a>
+        </p>
+    </footer>
+
+</body>
+
+</html>
