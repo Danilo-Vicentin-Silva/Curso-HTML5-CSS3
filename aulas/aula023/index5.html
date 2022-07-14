@@ -20,12 +20,14 @@
             border-collapse: collapse;
         }
 
-        td, th {
+        td,
+        th {
             border: 1px solid black;
             padding: 15px;
         }
 
-        .grupos, caption {
+        .grupos,
+        caption {
             font-weight: bold;
             background-color: rgb(156, 156, 156);
         }
@@ -43,15 +45,15 @@
         </caption>
         <thead>
             <tr>
-                <td class="grupos">Grupo</td>
-                <td class="grupos">Nomes</td>
-                <td class="grupos" colspan="3">Filmes</td>
+                <th class="grupos" scope="col">Grupos</th>
+                <th class="grupos" scope="col">Nomes</th>
+                <th class="grupos" scope="colgroup" colspan="3">Filmes</th>
             </tr>
         </thead>
         <tbody>
-            
+
             <tr>
-                <th class="grupos" rowspan="3">Mulheres</th>
+                <th class="grupos" scope="rowgroup" rowspan="3">Mulheres</th>
                 <td>Ana Beatriz</td>
                 <td>Alien</td>
                 <td>Rambo</td>
@@ -70,7 +72,7 @@
                 <td>Big Hero</td>
             </tr>
             <tr>
-                <th class="grupos" rowspan="3">Homens</th>
+                <th class="grupos" scope="rowgroup" rowspan="3">Homens</th>
                 <td>Bruno Mendonça</td>
                 <td>Intocáveis</td>
                 <td>Amnésia</td>
@@ -88,6 +90,12 @@
                 <td>Rush</td>
                 <td>Toy Story</td>
             </tr>
+        <tfoot>
+            <tr>
+                <th class="grupos" scope="row" colspan="4">Total</th>
+                <td >1000</td>
+            </tr>
+        </tfoot>
         </tbody>
     </table>
 </body>
