@@ -1,0 +1,59 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Iframe</title>
+    <style>
+        body {
+            font-family: monospace;
+            color: white;
+            background-color: rgb(104, 104, 104);
+        }
+
+        iframe {
+            width: 95vh;
+            height: 400px;
+            border: 2px solid black;
+
+        }
+    </style>
+</head>
+
+<body>
+    <h1>Faça uma escolha</h1>
+    <p>
+        Lorem ipsum dolor sit amet, consectetur adipisicing elit. Eum, reprehenderit sunt harum doloribus nobis
+        consequatur, labore modi vitae repellat saepe et, voluptatem accusantium. Odit tempora quidem dolor dignissimos!
+        Neque, placeat.
+    </p>
+    <ul>
+        <li><a target="frame" rel="prev" href="paginas-extras/pagina001.html">Primeira página</a></li>
+        <li><a target="frame" rel="prev" href="paginas-extras/pagina002.html">Segunda página</a></li>
+        <li><a target="frame" rel="prev" href="paginas-extras/pagina003.html">terceira página</a></li>
+    </ul>
+    <p>
+        Lorem ipsum dolor sit amet consectetur, adipisicing elit. Minima libero error cupiditate repellat quis
+        laboriosam architecto dolor ex, sapiente, temporibus cumque rem doloribus dolore sunt ut excepturi quasi
+        voluptatem cum. Lorem ipsum dolor sit, amet consectetur adipisicing elit. Error laborum consequuntur dolor
+        nostrum soluta unde rem cum, quasi iste excepturi! Eos repudiandae ea laborum dolores nobis iusto unde quis
+        mollitia!
+    </p>
+    <iframe srcdoc="<h1>Escolha uma das opções acima</h1><img src='imagens/imagem01.jpg' alt='imagem-estatica'>
+        " name="frame" frameborder="1">
+        <p>
+            [ Seu navegador não suporta esse recurso ]
+        </p>
+    </iframe>
+
+    <p>
+        Lorem ipsum dolor sit, amet consectetur adipisicing elit. Quod quas possimus iusto id? Harum ex minima cum iste
+        omnis necessitatibus voluptatibus magni neque deserunt? Non ea libero officia possimus amet?Lorem ipsum dolor
+        sit amet consectetur adipisicing elit. Magni, veniam cumque. Voluptates corporis porro commodi distinctio.
+        Quisquam eum provident quae earum impedit! Ipsa, exercitationem voluptatum. Optio quisquam labore odio eius.
+    </p>
+</body>
+
+</html>
