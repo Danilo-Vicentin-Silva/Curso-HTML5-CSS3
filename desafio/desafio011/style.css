@@ -46,3 +46,21 @@ main {
     width: 201px;
     height: 353px;
 }
+
+#redesSociais {
+    text-align: right;
+}
+
+#redesSociais > a > img {
+    width: 50px;
+    margin: 10px;
+    border-radius: 50%;
+    box-shadow: 5px 5px 10px rgba(0, 0, 0, 0.541);
+    box-sizing: border-box;
+}
+
+#redesSociais  img:hover {
+    border: 2px solid rgba(255, 255, 255, 0.33);
+    transform: translate(-3px, 3px);
+    transition: transform .2s, border .1s;
+}
