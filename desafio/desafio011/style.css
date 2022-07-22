@@ -31,10 +31,18 @@ main {
     background-image: url(./imagens/frame-iphone.png);
     background-repeat: no-repeat;
 
-    height: 403px;
-    width: 200px;
+    height: 470px;
+    width: 233px;
     position: absolute;
     top: 50%;
     left: 50%;
     transform: translate(-50%,-50%);
+}
+
+#tela {
+    position: relative;
+    top: 60px;
+    left: 16px;
+    width: 201px;
+    height: 353px;
 }
